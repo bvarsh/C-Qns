@@ -1,0 +1,28 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Write C++ code here
+int x, y,z;
+cout << "Enter the 1st side's length: ";
+cin >> x;
+cout << "Enter the 2nd side's length: ";
+cin >> y;
+cout << "Enter the 3rd side's length: ";
+cin >> z;
+if(x == y && y == z)
+  	{
+  		cout << "\nThis is an Equilateral Triangle";
+  	}
+  	else if(x == y || y == z || x == z)
+    {
+  		cout << "\nThis is an Isosceles Triangle";
+	}
+  	else
+    	cout << "\nThis is a Scalene Triangle";
+		
+ 	return 0;
+
+    return 0;
+}
